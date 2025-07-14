@@ -1,40 +1,35 @@
-# 💰 Money Manager
+# 💰 Money Manager - Expense Tracker
 
-A React-based money management app that helps you track income and expenses. Built with functional components and state management using React Hooks.
+![Money Manager Screenshot](./public/money-manager-screenshot.png)
 
----
+A simple yet powerful expense tracking application built with React to help you manage your finances effectively.
 
-## 🔗 Live Demo
+## 🚀 Features
 
-👉 [Click here to view the live app](https://raju-aamanchi-124.github.io/Money-manager)
+- 📝 Add income and expense transactions
+- 📊 View transaction history with color-coding
+- 💰 Automatic balance calculation
+- 📱 Responsive design works on all devices
+- 🔄 Data persistence using localStorage
 
-> Make sure you've deployed using GitHub Pages (instructions below)
+## 🖥️ Project Output
 
----
+### Main Interface
+![Main Interface](./public/screenshots/main-interface.png)
+*Dashboard showing balance, income/expense summary, and transaction form*
 
-## ✨ Features
+### Adding a Transaction
+![Adding Transaction](./public/screenshots/add-transaction.png)
+*Form to add new transactions with amount and type selection*
 
-- ✅ Add income and expense transactions
-- ✅ Shows total balance, income, and expenses
-- ✅ Delete individual transactions
-- ✅ Clean and responsive UI
+### Transaction History
+![Transaction List](./public/screenshots/transaction-list.png)
+*List of all recorded transactions with visual indicators*
 
----
-
-## 📸 Project Preview
-
-<p align="center">
-  <img src="./screenshot.png" alt="Money Manager Preview" width="600" />
-</p>
-
-> You can replace `screenshot.png` with an actual screenshot or animated GIF (like `demo.gif`)
-
----
-
-## 🛠️ Getting Started
-
-### 1️⃣ Clone the repo
+## 🛠️ Installation
 
 ```bash
 git clone https://github.com/Raju-Aamanchi-124/Money-manager.git
 cd Money-manager
+npm install
+npm start
